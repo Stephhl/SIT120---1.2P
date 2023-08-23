@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Responsive Web Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .left {
+      background-color: #ceebb4;
+      padding: 30px;
+      float: left;
+      width: 30%;
+    }
+
+    .middle {
+      background-color: #2afc00;
+      padding: 30px;
+      float: left;
+      width: 30%;
+    }
+
+    .right {
+      background-color: #c8e90f;
+      padding: 30px;
+      float: left;
+      width: 30%;
+    }
+
+    @media screen and (max-width: 600px) {
+      .left,
+      .middle,
+      .right {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 style="text-decoration: underline; font-size: 8vw;">SIT120 - Task 1.2P</h1>
+  <p>This is a test to show the concept of responsive web design.</p>
+
+  <img src="img/Dog.jpg" style="max-width:100%; height:auto;">
+
+  <div class="left">
+    <p>Left</p>
+  </div>
+
+  <div class="middle">
+    <p>Middle</p>
+  </div>
+
+  <div class="right">
+    <p>Right</p>
+  </div>
+
+</body>
+
+</html>
